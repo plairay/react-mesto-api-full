@@ -1,0 +1,26 @@
+.header__exit-button {
+    display: none;
+    margin-bottom: 46px;
+    transition: opacity .3s ease-in-out;
+}
+
+.header__exit-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 768px) {
+    .header__exit-button {
+        background-color: transparent;
+        display: block;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #a9a9a9;
+        text-decoration: none;
+        align-self: flex-end;
+        border: 0;
+        cursor: pointer;
+    }
+}

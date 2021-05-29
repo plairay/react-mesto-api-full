@@ -1,0 +1,20 @@
+
+.profile__avatar-container {
+    width: 120px;
+    height: 120px;
+}
+
+
+.profile__avatar-container:hover::before {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.8);
+    content: '';
+    background-image: url('../../../images/vector.svg');
+    display: block;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}

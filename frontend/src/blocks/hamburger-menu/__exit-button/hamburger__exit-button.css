@@ -1,0 +1,16 @@
+.hamburger__exit-button {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #a9a9a9;
+    margin: 0;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0;
+    transition: opacity .3s ease-in-out;
+}
+
+.hamburger__exit-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}

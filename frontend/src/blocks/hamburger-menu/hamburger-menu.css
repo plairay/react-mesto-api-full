@@ -1,0 +1,11 @@
+@import url('./__auth-email/hamburger__auth-email.css');
+@import url('./__exit-button/hamburger__exit-button.css');
+@import url('./__content/hamburger-menu__content.css');
+
+
+.hamburger-menu {
+    display: none;
+    max-width: 882px;
+    width: 100%;
+    border-bottom: 2px solid rgba(84, 84, 84, 0.7);
+}

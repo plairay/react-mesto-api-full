@@ -1,0 +1,18 @@
+@import url('./vendor/normalize.css');
+@import url('./vendor/fonts/fonts.css');
+@import url('./blocks/hamburger-menu/hamburger-menu.css');
+@import url('./blocks/hamburger-menu/__opened/hamburger-menu__opened.css');
+@import url('./blocks/page/page.css');
+@import url('./blocks/header/header.css');
+@import url('./blocks/profile/profile.css');
+@import url('./blocks/cards/cards.css');
+@import url('./blocks/card/card.css');
+@import url('./blocks/footer/footer.css');
+@import url('./blocks/popup/popup.css');
+@import url('./blocks/popup/__opened/popup__opened.css');
+@import url('./blocks/auth/auth.css');
+
+
+html, body, #root {
+    height: 100%;
+}

@@ -1,0 +1,12 @@
+@import url('./__container/auth__container.css');
+@import url('./__input/auth__input.css');
+@import url('./__label/auth__label.css');
+@import url('./__submit-button/auth__submit-button.css');
+@import url('./__text-link/auth__text-link.css');
+@import url('./__text/auth__text.css');
+@import url('./__title/auth__title.css');
+
+.auth {
+    flex-grow: 1;
+    font-family: 'Inter', ‘Arial’, sans-serif;
+}

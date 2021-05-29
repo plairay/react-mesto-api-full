@@ -1,0 +1,31 @@
+@import url('./__logo/header__logo.css');
+@import url('./__line/header__line.css');
+@import url('./__auth-email/header__auth-email.css');
+@import url('./__auth-link/header__auth-link.css');
+@import url('./__exit-button/header__exit-button.css');
+@import url('./__hamburger-button/header__hamburger-button.css');
+
+.header {
+    max-width: 882px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 45px;
+    border-bottom: 2px solid rgba(84, 84, 84, 0.7);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', ‘Arial’, sans-serif;
+}
+
+
+@media screen and (max-width: 905px) {
+    .header {
+        padding-top: 28px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        padding-top: 28px;
+        width: 100%;
+    }
+}
