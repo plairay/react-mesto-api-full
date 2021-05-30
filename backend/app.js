@@ -13,7 +13,7 @@ const { usersRoutes } = require('./routes/users');
 const { cardsRoutes } = require('./routes/cards');
 const { login, createUser } = require('./controllers/users');
 const { Auth } = require('./middlewares/auth');
-const NotFoundError = require('./errors/404-not-found-error');
+const NotFoundError = require('./errors/404');
 
 dotenv.config();
 app.use(cors({

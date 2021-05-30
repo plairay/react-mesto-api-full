@@ -1,8 +1,8 @@
 const jwt = require('jsonwebtoken');
 const dotenv = require('dotenv');
 
-const UnauthorizedError = require('../errors/401-unauthorized-error');
-const ForbiddenError = require('../errors/403-forbidden-error');
+const UnauthorizedError = require('../errors/401');
+const ForbiddenError = require('../errors/403');
 
 dotenv.config();
 const { JWT_SECRET, NODE_ENV } = process.env;
@@ -23,6 +23,6 @@ exports.Auth = (req, res, next) => {
     throw new ForbiddenError('Не достаточно прав');
   }
 
-  req.user = payload; // записываем пейлоуд в объект запроса
-  next(); // пропускаем запрос дальше
+  req.user = payload;
+  next();
 };

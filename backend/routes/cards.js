@@ -24,7 +24,7 @@ cardsRoutes.post(
           if (validator.isURL(value)) {
             return value;
           }
-          return helpers.message('Заполните поле валидным URL');
+          return helpers.message('Заполните поле валидной ссылкой');
         })
         .message({
           'string.required': 'Поле должны быть заполнено',
